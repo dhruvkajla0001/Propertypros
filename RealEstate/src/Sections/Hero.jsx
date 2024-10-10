@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 
 const Hero = ({ onSearchSubmit }) => {
     const [minPrice] = useState(10000); // Fixed value for min price
-    const [maxPrice, setMaxPrice] = useState(10000);
+    const [maxPrice, setMaxPrice] = useState(100000);
     const [type, setType] = useState('Rentals');
     const [category, setCategory] = useState('Apartments');
     const [location, setLocation] = useState('');
